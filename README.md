@@ -68,6 +68,7 @@ SSE(Server Sent Event)，直译为服务器发送事件，也就是服务器主�
 </html>
 ```
 - 后端接口
+```
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -104,7 +105,7 @@ public class CommonController {
         return sseEmitter;
     }
 }
-
+```
 - 大功告成
 ![](https://z1.ax1x.com/2023/11/25/pi0EfLF.png)
 
